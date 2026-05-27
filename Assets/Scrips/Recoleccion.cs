@@ -1,25 +1,27 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using TMPro;
 public class Recoleccion : MonoBehaviour
 {
-    // Variable para el contador
     private int objetosRecolectados = 0;
+    public TextMeshProUGUI textoUI;
+    
+    void Start()
+    {
+        textoUI.text = "0";
+    }
 
-    // Se activa cuando la esfera toca al reloj
     private void OnTriggerEnter(Collider other)
     {
-        // Si lo que tocamos tiene el Tag "Coleccionable"
         if (other.CompareTag("Coleccionable"))
         {
-            // Sumamos punto
             objetosRecolectados++;
 
-            // Mostramos en consola
-            Debug.Log("Objetos recolectados: " + objetosRecolectados);
+            // Actualiza solo el número
+            textoUI.text = objetosRecolectados.ToString();
 
-            // Destruimos el reloj
+            Debug.Log("Objeto destruido correctamente");
             Destroy(other.gameObject);
         }
     }
