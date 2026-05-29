@@ -1,4 +1,4 @@
-﻿using System.Collections;
+﻿﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
@@ -17,8 +17,6 @@ public class Recoleccion : MonoBehaviour
         if (other.CompareTag("Coleccionable"))
         {
             objetosRecolectados++;
-
-            // Actualiza solo el número
             textoUI.text = objetosRecolectados.ToString();
 
             Debug.Log("Objeto destruido correctamente");
