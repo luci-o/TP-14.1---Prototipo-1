@@ -5,17 +5,17 @@ using TMPro;
 
 public class UIManager : MonoBehaviour
 {
-    // Referencias públicas a los componentes TextMeshPro de la UI
     public TextMeshProUGUI textoPuntaje;
     public TextMeshProUGUI textoTemporizador;
 
-    // Método público para actualizar el texto del puntaje
+    private void Start()
+    {
+        UpdateScore(0);
+    }
     public void UpdateScore(int score)
     {
-        textoPuntaje.text = "Score: " + score.ToString();
+        textoPuntaje.text = score.ToString();
     }
-
-    // Método público para actualizar el texto del cronómetro
     public void UpdateTimer(float timeRemaining)
     {
         textoTemporizador.text = Mathf.CeilToInt(timeRemaining).ToString();
