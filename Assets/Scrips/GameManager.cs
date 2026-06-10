@@ -1,70 +1,60 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement; // Requisito: Librería de escenas para el reinicio
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    private float timer = 60f; // Cuenta regresiva[cite: 1]
+    private float timer = 60f;
     private UIManager uiManager;
-    private bool isFinished = false; // Control de fin de juego[cite: 1]
+    private bool isFinished = false;
 
     void Start()
     {
-        // CRUCIAL: Restablecer la velocidad del juego para que no inicie congelado[cite: 3]
         Time.timeScale = 1f; 
         
-        uiManager = FindObjectOfType<UIManager>(); //[cite: 1]
+        uiManager = FindObjectOfType<UIManager>();
     }
 
     void Update()
     {
-        // Sistema de Reinicio: Si el juego terminó y presionás R, recarga la escena[cite: 3]
         if (isFinished)
         {
             if (Input.GetKeyDown(KeyCode.R))
             {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().name); //[cite: 3]
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             }
-            return; // Detiene la ejecución del resto del Update[cite: 1]
+            return;
         }
-
-        // Cuenta regresiva[cite: 1]
         if (timer > 0)
         {
-            timer -= Time.deltaTime; //[cite: 1]
+            timer -= Time.deltaTime;
             if (uiManager != null)
             {
-                uiManager.UpdateTimer(timer); //[cite: 1]
+                uiManager.UpdateTimer(timer);
             }
-
-            // Si el tiempo llega a cero, activa GAME OVER[cite: 3]
             if (timer <= 0)
             {
                 GameOver();
             }
         }
     }
-
-    // Ordena al UIManager activar GAME OVER y congela el juego[cite: 3]
     public void GameOver()
     {
         isFinished = true;
         if (uiManager != null)
         {
-            uiManager.MostrarPantallaGameOver(); //[cite: 3]
+            uiManager.MostrarPantallaGameOver();
         }
-        Time.timeScale = 0f; // Congela el paso del tiempo[cite: 3]
+        Time.timeScale = 0f;
     }
-
-    // Ordena al UIManager activar WIN y congela el juego[cite: 3]
     public void WinGame()
     {
         isFinished = true;
         if (uiManager != null)
         {
-            uiManager.MostrarPantallaWin(); //[cite: 3]
+            uiManager.MostrarPantallaWin();
         }
-        Time.timeScale = 0f; // Congela el paso del tiempo[cite: 3]
+        Time.timeScale = 0f;
     }
 }

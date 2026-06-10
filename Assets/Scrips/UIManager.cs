@@ -1,38 +1,34 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro; //[cite: 3]
+using TMPro;
 
 public class UIManager : MonoBehaviour
 {
-    public TextMeshProUGUI textoPuntaje; //[cite: 3]
-    public TextMeshProUGUI textoTemporizador; //[cite: 3]
-
-    // Requisito: Variables públicas de tipo GameObject para arrastrar los contenedores[cite: 3]
+    public TextMeshProUGUI textoPuntaje;
+    public TextMeshProUGUI textoTemporizador;
     public GameObject panelWin;
     public GameObject panelGameOver;
 
     private void Start()
     {
-        UpdateScore(0); //[cite: 3]
+        UpdateScore(0);
     }
 
     public void UpdateScore(int score)
     {
-        textoPuntaje.text = score.ToString(); //[cite: 3]
+        textoPuntaje.text = "Score:" + score.ToString();
     }
 
     public void UpdateTimer(float timeRemaining)
     {
-        textoTemporizador.text = Mathf.CeilToInt(timeRemaining).ToString(); //[cite: 3]
+        textoTemporizador.text = "Tiempo:" + Mathf.CeilToInt(timeRemaining).ToString();
     }
-
-    // Requisito: Métodos públicos para activar las pantallas mediante SetActive(true)[cite: 3]
     public void MostrarPantallaWin()
     {
         if (panelWin != null) 
         {
-            panelWin.SetActive(true); //[cite: 3]
+            panelWin.SetActive(true);
         }
     }
 
@@ -40,7 +36,7 @@ public class UIManager : MonoBehaviour
     {
         if (panelGameOver != null) 
         {
-            panelGameOver.SetActive(true); //[cite: 3]
+            panelGameOver.SetActive(true);
         }
     }
 }
