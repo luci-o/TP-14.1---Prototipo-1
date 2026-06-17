@@ -4,12 +4,32 @@ ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
+    100002: Cube
+    100004: Paredes
+    100006: Piso
+    100008: Techo
     400000: //RootNode
+    400002: Cube
+    400004: Paredes
+    400006: Piso
+    400008: Techo
     2100000: Material.002
     2100002: Material.003
+    2100004: Material.001
     2300000: //RootNode
+    2300002: Cube
+    2300004: Paredes
+    2300006: Piso
+    2300008: Techo
     3300000: //RootNode
+    3300002: Cube
+    3300004: Paredes
+    3300006: Piso
+    3300008: Techo
     4300000: Cube
+    4300002: Piso
+    4300004: Paredes
+    4300006: Techo
   externalObjects:
   - first:
       type: UnityEngine:Material
