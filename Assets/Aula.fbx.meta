@@ -21,6 +21,7 @@ ModelImporter:
     2100006: Material
     2100008: Material.005
     2100010: Material.004
+    2100012: Material.008
     2300000: //RootNode
     2300002: Cube
     2300004: Paredes
@@ -62,18 +63,28 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Material.004
+    second: {fileID: 2100000, guid: 6fdf24e59c8803047b522edbd91753ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Material.005
     second: {fileID: 2100000, guid: 22cb363e727bacf48bef84b266c1abe7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.008
+    second: {fileID: 2100000, guid: 48ba6ac5bd0b95845a9ff3e61c56f629, type: 2}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: TexturesCom_OfficeCeiling_1K_albedo
-    second: {fileID: 2800000, guid: 32e6c8e892d903f4586c3a38b5d4f5a8, type: 3}
+    second: {fileID: 2800000, guid: a3697b38e37af2744982b850a270ccb0, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: rubber_tiles_diff_4k
-    second: {fileID: 2800000, guid: 11900db109ccaaa49bcfdee41d0e2bed, type: 3}
+    second: {fileID: 2800000, guid: c6bef64e944576947a91bc9228243475, type: 3}
   materials:
     importMaterials: 1
     materialName: 0
