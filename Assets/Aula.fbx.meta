@@ -9,12 +9,14 @@ ModelImporter:
     100006: Piso
     100008: Techo
     100010: Puerta
+    100012: piso
     400000: //RootNode
     400002: Cube
     400004: Paredes
     400006: Piso
     400008: Techo
     400010: Puerta
+    400012: piso
     2100000: Material.002
     2100002: Material.003
     2100004: Material.001
@@ -23,23 +25,29 @@ ModelImporter:
     2100010: Material.004
     2100012: Material.008
     2100014: Material.011
+    2100016: Material.012
+    2100018: Material.014
+    2100020: Material.017
     2300000: //RootNode
     2300002: Cube
     2300004: Paredes
     2300006: Piso
     2300008: Techo
     2300010: Puerta
+    2300012: piso
     3300000: //RootNode
     3300002: Cube
     3300004: Paredes
     3300006: Piso
     3300008: Techo
     3300010: Puerta
+    3300012: piso
     4300000: Cube
     4300002: Piso
     4300004: Paredes
     4300006: Techo
     4300008: Puerta
+    4300010: piso
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -82,15 +90,35 @@ ModelImporter:
       name: Material.011
     second: {fileID: 2100000, guid: 47d35bbd5d4d743419f0cd5cee07e2c5, type: 2}
   - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.012
+    second: {fileID: 2100000, guid: d855d939f29e7544ca0274e7c39ddf93, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.014
+    second: {fileID: 2100000, guid: 2d287c6094175ea44ba6d80df21c4fba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.017
+    second: {fileID: 2100000, guid: 1d037ba815c4bff44932fa863b4d0bdd, type: 2}
+  - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Stone_TilesGranite_512_albedo
-    second: {fileID: 2800000, guid: 4632d5f059a843845b863c31fde06dd3, type: 3}
+    second: {fileID: 2800000, guid: 9a15b1d4d50bc8a4f894520014c1a06f, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: TexturesCom_OfficeCeiling_1K_albedo
-    second: {fileID: 2800000, guid: b1f2c38375ff4914cbd38211aa9d616f, type: 3}
+    second: {fileID: 2800000, guid: acf777900a5c785469550a244b6c7865, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: painted_plaster_wall_disp_1k
+    second: {fileID: 2800000, guid: 700f5e0e313d78b47af69e861840a881, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
