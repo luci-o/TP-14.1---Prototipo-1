@@ -22,6 +22,7 @@ ModelImporter:
     2100008: Material.005
     2100010: Material.004
     2100012: Material.008
+    2100014: Material.011
     2300000: //RootNode
     2300002: Cube
     2300004: Paredes
@@ -76,10 +77,15 @@ ModelImporter:
       name: Material.008
     second: {fileID: 2100000, guid: 48ba6ac5bd0b95845a9ff3e61c56f629, type: 2}
   - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.011
+    second: {fileID: 2100000, guid: 47d35bbd5d4d743419f0cd5cee07e2c5, type: 2}
+  - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: TexturesCom_OfficeCeiling_1K_albedo
-    second: {fileID: 2800000, guid: a3697b38e37af2744982b850a270ccb0, type: 3}
+    second: {fileID: 2800000, guid: 2faadb9435fc050468b0238724c80a98, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
