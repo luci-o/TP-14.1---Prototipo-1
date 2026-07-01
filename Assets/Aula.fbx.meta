@@ -85,12 +85,12 @@ ModelImporter:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Stone_TilesGranite_512_albedo
-    second: {fileID: 2800000, guid: f51911c104fc89b4bb26f7c30e52f48e, type: 3}
+    second: {fileID: 2800000, guid: 4632d5f059a843845b863c31fde06dd3, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: TexturesCom_OfficeCeiling_1K_albedo
-    second: {fileID: 2800000, guid: f546c9244afcfdc41a9b8a2989aa4297, type: 3}
+    second: {fileID: 2800000, guid: b1f2c38375ff4914cbd38211aa9d616f, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
@@ -135,10 +135,10 @@ ModelImporter:
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     optimizeMeshForGPU: 1
-    keepQuads: 0
+    keepQuads: 1
     weldVertices: 1
     preserveHierarchy: 0
     indexFormat: 0
