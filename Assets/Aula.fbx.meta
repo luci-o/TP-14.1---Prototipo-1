@@ -84,8 +84,13 @@ ModelImporter:
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
+      name: Stone_TilesGranite_512_albedo
+    second: {fileID: 2800000, guid: f51911c104fc89b4bb26f7c30e52f48e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
       name: TexturesCom_OfficeCeiling_1K_albedo
-    second: {fileID: 2800000, guid: 2faadb9435fc050468b0238724c80a98, type: 3}
+    second: {fileID: 2800000, guid: f546c9244afcfdc41a9b8a2989aa4297, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
