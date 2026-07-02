@@ -38,17 +38,17 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 11
-  m_GIWorkflowMode: 0
+  m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
-    m_IndirectOutputScale: 1
+    m_IndirectOutputScale: 3.09
     m_AlbedoBoost: 1
     m_EnvironmentLightingMode: 0
     m_EnableBakedLightmaps: 1
@@ -1394,6 +1394,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: LightPanel (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 2118730114224056181, guid: cdb0e49cdb6115d47af24f1c56bcfc0c,
+        type: 3}
+      propertyPath: m_Range
+      value: 20
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cdb0e49cdb6115d47af24f1c56bcfc0c, type: 3}
 --- !u!1 &280757906
@@ -1852,6 +1857,14 @@ PrefabInstance:
       propertyPath: m_ScaleInLightmap
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2300008, guid: 437da8bec1b7cb24c8992ea417329810, type: 3}
+      propertyPath: m_StitchLightmapSeams
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300008, guid: 437da8bec1b7cb24c8992ea417329810, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 437da8bec1b7cb24c8992ea417329810, type: 3}
 --- !u!1 &310464971 stripped
@@ -2285,6 +2298,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: LightPanel (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 2118730114224056181, guid: cdb0e49cdb6115d47af24f1c56bcfc0c,
+        type: 3}
+      propertyPath: m_Range
+      value: 20
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cdb0e49cdb6115d47af24f1c56bcfc0c, type: 3}
 --- !u!1001 &584504474
@@ -2577,6 +2595,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: LightPanel (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2118730114224056181, guid: cdb0e49cdb6115d47af24f1c56bcfc0c,
+        type: 3}
+      propertyPath: m_Range
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cdb0e49cdb6115d47af24f1c56bcfc0c, type: 3}
@@ -3077,6 +3100,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: LightPanel (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2118730114224056181, guid: cdb0e49cdb6115d47af24f1c56bcfc0c,
+        type: 3}
+      propertyPath: m_Range
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cdb0e49cdb6115d47af24f1c56bcfc0c, type: 3}
@@ -3842,7 +3870,7 @@ PrefabInstance:
     - target: {fileID: 2118730114224056181, guid: cdb0e49cdb6115d47af24f1c56bcfc0c,
         type: 3}
       propertyPath: m_Range
-      value: 5.27
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cdb0e49cdb6115d47af24f1c56bcfc0c, type: 3}
@@ -5084,6 +5112,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: LightPanel (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 2118730114224056181, guid: cdb0e49cdb6115d47af24f1c56bcfc0c,
+        type: 3}
+      propertyPath: m_Range
+      value: 20
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cdb0e49cdb6115d47af24f1c56bcfc0c, type: 3}
 --- !u!1 &1325792660 stripped
@@ -5255,6 +5288,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: LightPanel (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2118730114224056181, guid: cdb0e49cdb6115d47af24f1c56bcfc0c,
+        type: 3}
+      propertyPath: m_Range
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cdb0e49cdb6115d47af24f1c56bcfc0c, type: 3}
@@ -5801,6 +5839,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: LightPanel (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2118730114224056181, guid: cdb0e49cdb6115d47af24f1c56bcfc0c,
+        type: 3}
+      propertyPath: m_Range
+      value: 20
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cdb0e49cdb6115d47af24f1c56bcfc0c, type: 3}
 --- !u!1 &1498981813
@@ -6253,6 +6296,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: LightPanel (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2118730114224056181, guid: cdb0e49cdb6115d47af24f1c56bcfc0c,
+        type: 3}
+      propertyPath: m_Range
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cdb0e49cdb6115d47af24f1c56bcfc0c, type: 3}
@@ -6720,6 +6768,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: LightPanel (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2118730114224056181, guid: cdb0e49cdb6115d47af24f1c56bcfc0c,
+        type: 3}
+      propertyPath: m_Range
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cdb0e49cdb6115d47af24f1c56bcfc0c, type: 3}
@@ -7291,7 +7344,7 @@ PrefabInstance:
     - target: {fileID: 2118730114224056181, guid: cdb0e49cdb6115d47af24f1c56bcfc0c,
         type: 3}
       propertyPath: m_Range
-      value: 10
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 2118730114224056181, guid: cdb0e49cdb6115d47af24f1c56bcfc0c,
         type: 3}
@@ -7943,6 +7996,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: LightPanel (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 2118730114224056181, guid: cdb0e49cdb6115d47af24f1c56bcfc0c,
+        type: 3}
+      propertyPath: m_Range
+      value: 20
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cdb0e49cdb6115d47af24f1c56bcfc0c, type: 3}
 --- !u!1 &2058420110
@@ -8381,6 +8439,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: LightPanel (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2118730114224056181, guid: cdb0e49cdb6115d47af24f1c56bcfc0c,
+        type: 3}
+      propertyPath: m_Range
+      value: 20
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cdb0e49cdb6115d47af24f1c56bcfc0c, type: 3}
 --- !u!1001 &2135316000
@@ -8449,6 +8512,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: LightPanel (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2118730114224056181, guid: cdb0e49cdb6115d47af24f1c56bcfc0c,
+        type: 3}
+      propertyPath: m_Range
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cdb0e49cdb6115d47af24f1c56bcfc0c, type: 3}
@@ -8746,6 +8814,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: LightPanel
+      objectReference: {fileID: 0}
+    - target: {fileID: 2118730114224056181, guid: cdb0e49cdb6115d47af24f1c56bcfc0c,
+        type: 3}
+      propertyPath: m_Range
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cdb0e49cdb6115d47af24f1c56bcfc0c, type: 3}
