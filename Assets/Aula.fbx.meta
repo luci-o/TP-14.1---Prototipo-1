@@ -28,6 +28,7 @@ ModelImporter:
     2100016: Material.012
     2100018: Material.014
     2100020: Material.017
+    2100022: Material.010
     2300000: //RootNode
     2300002: Cube
     2300004: Paredes
@@ -87,6 +88,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Material.010
+    second: {fileID: 2100000, guid: 162580687930b854e98a7893b092dec7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Material.011
     second: {fileID: 2100000, guid: 47d35bbd5d4d743419f0cd5cee07e2c5, type: 2}
   - first:
@@ -108,17 +114,22 @@ ModelImporter:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Stone_TilesGranite_512_albedo
-    second: {fileID: 2800000, guid: 7f7af3e16bbf0a94ca3336fc37a1937a, type: 3}
+    second: {fileID: 2800000, guid: d260d18dc86189245af282d0c3a99412, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: TexturesCom_OfficeCeiling_1K_albedo
-    second: {fileID: 2800000, guid: 65d9276466427444a964b9b29bd60aae, type: 3}
+    second: {fileID: 2800000, guid: e880c2eeea2473040a4b852010e28b44, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: painted_plaster_wall_disp_1k
-    second: {fileID: 2800000, guid: a102a23a95f09464dad07fd22d8122c9, type: 3}
+    second: {fileID: 2800000, guid: 20bea0421becece4fbba006a4f41d741, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: plastered_wall_diff_4k
+    second: {fileID: 2800000, guid: 591e63e6d94e1364b986c1659daf0ff4, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
