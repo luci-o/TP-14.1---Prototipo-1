@@ -119,22 +119,22 @@ ModelImporter:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Stone_TilesGranite_512_albedo
-    second: {fileID: 2800000, guid: 6216978db895b0d45bce0bb17a388890, type: 3}
+    second: {fileID: 2800000, guid: e65f15ee373c39e4b89f38adde53a1a6, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: TexturesCom_OfficeCeiling_1K_albedo
-    second: {fileID: 2800000, guid: 71aa62793c77b9349ba6920c0c99f6bf, type: 3}
+    second: {fileID: 2800000, guid: 11e7e08b97405ba4fb851b5d50d59074, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: painted_plaster_wall_disp_1k
-    second: {fileID: 2800000, guid: 2898697e1984eb6409f75eb2e9a20322, type: 3}
+    second: {fileID: 2800000, guid: b7eb08d0d1998d0408fc20f4a2118fc9, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: plastered_wall_diff_4k
-    second: {fileID: 2800000, guid: 0d517a49dffe1b1439dad904d6902016, type: 3}
+    second: {fileID: 2800000, guid: 8dea51598c0f8154f8a99fc9e8b24597, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
