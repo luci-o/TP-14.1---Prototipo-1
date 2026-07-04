@@ -10,6 +10,7 @@ ModelImporter:
     100008: Techo
     100010: Puerta
     100012: piso
+    100014: "Pizarr\xF3n"
     400000: //RootNode
     400002: Cube
     400004: Paredes
@@ -17,6 +18,7 @@ ModelImporter:
     400008: Techo
     400010: Puerta
     400012: piso
+    400014: "Pizarr\xF3n"
     2100000: Material.002
     2100002: Material.003
     2100004: Material.001
@@ -36,6 +38,7 @@ ModelImporter:
     2300008: Techo
     2300010: Puerta
     2300012: piso
+    2300014: "Pizarr\xF3n"
     3300000: //RootNode
     3300002: Cube
     3300004: Paredes
@@ -43,12 +46,14 @@ ModelImporter:
     3300008: Techo
     3300010: Puerta
     3300012: piso
+    3300014: "Pizarr\xF3n"
     4300000: Cube
     4300002: Piso
     4300004: Paredes
     4300006: Techo
     4300008: Puerta
     4300010: piso
+    4300012: "Pizarr\xF3n"
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -114,22 +119,22 @@ ModelImporter:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Stone_TilesGranite_512_albedo
-    second: {fileID: 2800000, guid: d260d18dc86189245af282d0c3a99412, type: 3}
+    second: {fileID: 2800000, guid: 6216978db895b0d45bce0bb17a388890, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: TexturesCom_OfficeCeiling_1K_albedo
-    second: {fileID: 2800000, guid: e880c2eeea2473040a4b852010e28b44, type: 3}
+    second: {fileID: 2800000, guid: 71aa62793c77b9349ba6920c0c99f6bf, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: painted_plaster_wall_disp_1k
-    second: {fileID: 2800000, guid: 20bea0421becece4fbba006a4f41d741, type: 3}
+    second: {fileID: 2800000, guid: 2898697e1984eb6409f75eb2e9a20322, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: plastered_wall_diff_4k
-    second: {fileID: 2800000, guid: 591e63e6d94e1364b986c1659daf0ff4, type: 3}
+    second: {fileID: 2800000, guid: 0d517a49dffe1b1439dad904d6902016, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
