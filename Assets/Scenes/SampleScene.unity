@@ -1397,7 +1397,17 @@ PrefabInstance:
     - target: {fileID: 2118730114224056181, guid: cdb0e49cdb6115d47af24f1c56bcfc0c,
         type: 3}
       propertyPath: m_Range
-      value: 20
+      value: 16.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2118730114224056181, guid: cdb0e49cdb6115d47af24f1c56bcfc0c,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2118730114224056181, guid: cdb0e49cdb6115d47af24f1c56bcfc0c,
+        type: 3}
+      propertyPath: m_ShadowRadius
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cdb0e49cdb6115d47af24f1c56bcfc0c, type: 3}
@@ -2325,7 +2335,17 @@ PrefabInstance:
     - target: {fileID: 2118730114224056181, guid: cdb0e49cdb6115d47af24f1c56bcfc0c,
         type: 3}
       propertyPath: m_Range
-      value: 20
+      value: 16.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2118730114224056181, guid: cdb0e49cdb6115d47af24f1c56bcfc0c,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2118730114224056181, guid: cdb0e49cdb6115d47af24f1c56bcfc0c,
+        type: 3}
+      propertyPath: m_ShadowRadius
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cdb0e49cdb6115d47af24f1c56bcfc0c, type: 3}
@@ -2623,7 +2643,17 @@ PrefabInstance:
     - target: {fileID: 2118730114224056181, guid: cdb0e49cdb6115d47af24f1c56bcfc0c,
         type: 3}
       propertyPath: m_Range
-      value: 20
+      value: 16.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2118730114224056181, guid: cdb0e49cdb6115d47af24f1c56bcfc0c,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2118730114224056181, guid: cdb0e49cdb6115d47af24f1c56bcfc0c,
+        type: 3}
+      propertyPath: m_ShadowRadius
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cdb0e49cdb6115d47af24f1c56bcfc0c, type: 3}
@@ -3128,7 +3158,17 @@ PrefabInstance:
     - target: {fileID: 2118730114224056181, guid: cdb0e49cdb6115d47af24f1c56bcfc0c,
         type: 3}
       propertyPath: m_Range
-      value: 20
+      value: 16.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2118730114224056181, guid: cdb0e49cdb6115d47af24f1c56bcfc0c,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2118730114224056181, guid: cdb0e49cdb6115d47af24f1c56bcfc0c,
+        type: 3}
+      propertyPath: m_ShadowRadius
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cdb0e49cdb6115d47af24f1c56bcfc0c, type: 3}
@@ -5025,7 +5065,17 @@ PrefabInstance:
     - target: {fileID: 2118730114224056181, guid: cdb0e49cdb6115d47af24f1c56bcfc0c,
         type: 3}
       propertyPath: m_Range
-      value: 20
+      value: 16.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2118730114224056181, guid: cdb0e49cdb6115d47af24f1c56bcfc0c,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2118730114224056181, guid: cdb0e49cdb6115d47af24f1c56bcfc0c,
+        type: 3}
+      propertyPath: m_ShadowRadius
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cdb0e49cdb6115d47af24f1c56bcfc0c, type: 3}
@@ -5202,7 +5252,17 @@ PrefabInstance:
     - target: {fileID: 2118730114224056181, guid: cdb0e49cdb6115d47af24f1c56bcfc0c,
         type: 3}
       propertyPath: m_Range
-      value: 20
+      value: 16.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2118730114224056181, guid: cdb0e49cdb6115d47af24f1c56bcfc0c,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2118730114224056181, guid: cdb0e49cdb6115d47af24f1c56bcfc0c,
+        type: 3}
+      propertyPath: m_ShadowRadius
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2118730114224056182, guid: cdb0e49cdb6115d47af24f1c56bcfc0c,
         type: 3}
@@ -5767,7 +5827,17 @@ PrefabInstance:
     - target: {fileID: 2118730114224056181, guid: cdb0e49cdb6115d47af24f1c56bcfc0c,
         type: 3}
       propertyPath: m_Range
-      value: 20
+      value: 16.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2118730114224056181, guid: cdb0e49cdb6115d47af24f1c56bcfc0c,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2118730114224056181, guid: cdb0e49cdb6115d47af24f1c56bcfc0c,
+        type: 3}
+      propertyPath: m_ShadowRadius
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cdb0e49cdb6115d47af24f1c56bcfc0c, type: 3}
@@ -6245,7 +6315,17 @@ PrefabInstance:
     - target: {fileID: 2118730114224056181, guid: cdb0e49cdb6115d47af24f1c56bcfc0c,
         type: 3}
       propertyPath: m_Range
-      value: 20
+      value: 16.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2118730114224056181, guid: cdb0e49cdb6115d47af24f1c56bcfc0c,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2118730114224056181, guid: cdb0e49cdb6115d47af24f1c56bcfc0c,
+        type: 3}
+      propertyPath: m_ShadowRadius
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cdb0e49cdb6115d47af24f1c56bcfc0c, type: 3}
@@ -6717,7 +6797,17 @@ PrefabInstance:
     - target: {fileID: 2118730114224056181, guid: cdb0e49cdb6115d47af24f1c56bcfc0c,
         type: 3}
       propertyPath: m_Range
-      value: 20
+      value: 16.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2118730114224056181, guid: cdb0e49cdb6115d47af24f1c56bcfc0c,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2118730114224056181, guid: cdb0e49cdb6115d47af24f1c56bcfc0c,
+        type: 3}
+      propertyPath: m_ShadowRadius
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cdb0e49cdb6115d47af24f1c56bcfc0c, type: 3}
@@ -7289,7 +7379,7 @@ PrefabInstance:
     - target: {fileID: 2118730114224056181, guid: cdb0e49cdb6115d47af24f1c56bcfc0c,
         type: 3}
       propertyPath: m_Range
-      value: 20
+      value: 16.2
       objectReference: {fileID: 0}
     - target: {fileID: 2118730114224056181, guid: cdb0e49cdb6115d47af24f1c56bcfc0c,
         type: 3}
@@ -7299,6 +7389,16 @@ PrefabInstance:
     - target: {fileID: 2118730114224056181, guid: cdb0e49cdb6115d47af24f1c56bcfc0c,
         type: 3}
       propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2118730114224056181, guid: cdb0e49cdb6115d47af24f1c56bcfc0c,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2118730114224056181, guid: cdb0e49cdb6115d47af24f1c56bcfc0c,
+        type: 3}
+      propertyPath: m_ShadowRadius
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2118730114224056182, guid: cdb0e49cdb6115d47af24f1c56bcfc0c,
@@ -7943,7 +8043,17 @@ PrefabInstance:
     - target: {fileID: 2118730114224056181, guid: cdb0e49cdb6115d47af24f1c56bcfc0c,
         type: 3}
       propertyPath: m_Range
-      value: 20
+      value: 16.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2118730114224056181, guid: cdb0e49cdb6115d47af24f1c56bcfc0c,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2118730114224056181, guid: cdb0e49cdb6115d47af24f1c56bcfc0c,
+        type: 3}
+      propertyPath: m_ShadowRadius
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cdb0e49cdb6115d47af24f1c56bcfc0c, type: 3}
@@ -8406,7 +8516,17 @@ PrefabInstance:
     - target: {fileID: 2118730114224056181, guid: cdb0e49cdb6115d47af24f1c56bcfc0c,
         type: 3}
       propertyPath: m_Range
-      value: 20
+      value: 16.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2118730114224056181, guid: cdb0e49cdb6115d47af24f1c56bcfc0c,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2118730114224056181, guid: cdb0e49cdb6115d47af24f1c56bcfc0c,
+        type: 3}
+      propertyPath: m_ShadowRadius
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cdb0e49cdb6115d47af24f1c56bcfc0c, type: 3}
@@ -8480,7 +8600,17 @@ PrefabInstance:
     - target: {fileID: 2118730114224056181, guid: cdb0e49cdb6115d47af24f1c56bcfc0c,
         type: 3}
       propertyPath: m_Range
-      value: 20
+      value: 16.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2118730114224056181, guid: cdb0e49cdb6115d47af24f1c56bcfc0c,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2118730114224056181, guid: cdb0e49cdb6115d47af24f1c56bcfc0c,
+        type: 3}
+      propertyPath: m_ShadowRadius
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cdb0e49cdb6115d47af24f1c56bcfc0c, type: 3}
@@ -8782,7 +8912,17 @@ PrefabInstance:
     - target: {fileID: 2118730114224056181, guid: cdb0e49cdb6115d47af24f1c56bcfc0c,
         type: 3}
       propertyPath: m_Range
-      value: 20
+      value: 16.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2118730114224056181, guid: cdb0e49cdb6115d47af24f1c56bcfc0c,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2118730114224056181, guid: cdb0e49cdb6115d47af24f1c56bcfc0c,
+        type: 3}
+      propertyPath: m_ShadowRadius
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cdb0e49cdb6115d47af24f1c56bcfc0c, type: 3}
