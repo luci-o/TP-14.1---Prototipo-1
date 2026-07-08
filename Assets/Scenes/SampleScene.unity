@@ -2153,6 +2153,10 @@ PrefabInstance:
       propertyPath: m_DynamicOccludee
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2300014, guid: 437da8bec1b7cb24c8992ea417329810, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7a80b34f4433e0643817ddb7809bf96b, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 437da8bec1b7cb24c8992ea417329810, type: 3}
 --- !u!1 &310464971 stripped
